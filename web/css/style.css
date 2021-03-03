@@ -1,0 +1,126 @@
+/*************************************
+Configurações gerais */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+h2 {
+  background: #294c71;
+  color: #fff;
+  padding: 5px 3px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form {
+  background: #fff;
+}
+
+.container {
+  width: 45%;
+  margin: 0 auto;
+}
+
+/*************************************
+Header */
+header {
+  width: 100%;
+  height: 233px;
+  background: url("../img/fundo.png") repeat-x;
+}
+
+nav {
+  margin-top: 25px;
+  float: left;
+}
+
+nav ul {
+  background: #b10333;
+}
+
+nav li {
+  display: inline;
+  line-height: 45px;
+}
+
+nav li a {
+  background: url("../img/divisor.png") no-repeat left;
+  color: #fff;
+  padding: 0 20px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.first {
+  background-image: none;
+}
+
+.logo {
+  float: left;
+  padding-top: 25px;
+}
+
+.mapa {
+  float: right;
+}
+
+/***************************************
+Conteúdo */
+.column, .column-left {
+  border: 1px solid red;
+  float: left;
+}
+
+.column {
+  width: 36%;
+  margin-left: 2%;
+}
+
+.column-left {
+  width: 23%;
+}
+
+.bloco {
+  background: url("../img/fundo-caixa.png");
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.miniatura {
+  background: #fff;
+}
+
+.texto-miniatura {
+  width: 50%;
+  float: right;
+}
+
+.miniatura h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #294c71;
+}
+
+.img-miniatura {
+  float: left;
+}
+
+.img-miniatura img {
+  width: 30%;
+  padding: 2%;
+}
